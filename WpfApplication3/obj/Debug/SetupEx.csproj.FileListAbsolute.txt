@@ -1,0 +1,14 @@
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe.config
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.exe
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.pdb
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\Ionic.Zip.dll
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\log4net.dll
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\log4net.xml
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\MainWindow.baml
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\MainWindow.g.cs
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\App.g.cs
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.cache
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.g.resources
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\SetupEx.Properties.Resources.resources
+C:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\SetupEx.csproj.GenerateResource.Cache

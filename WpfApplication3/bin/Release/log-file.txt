@@ -1,0 +1,37 @@
+2013-10-20 19:44:13,401 [9] ERROR WpfApplication3.vshost.exe [(null)] - Error while loading resource
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Runtime.InteropServices.Marshal.CopyToManaged(IntPtr source, Object destination, Int32 startIndex, Int32 length)
+   at SetupEx.C_ResourceLoader.LoadResource(String resourceName, String resourceType) in c:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\C_ResourceLoader.cs:line 103
+2013-10-20 19:50:40,899 [10] ERROR WpfApplication3.vshost.exe [(null)] - Error while loading resource
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Runtime.InteropServices.Marshal.CopyToManaged(IntPtr source, Object destination, Int32 startIndex, Int32 length)
+   at SetupEx.C_ResourceLoader.LoadResource(String resourceName, String resourceType) in c:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\C_ResourceLoader.cs:line 103
+2013-10-20 19:50:41,165 [10] ERROR WpfApplication3.vshost.exe [(null)] - Error while Extracting
+Ionic.Zip.ZipException: Cannot read that as a ZipFile ---> Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x00000000)
+   at Ionic.Zip.SharedUtilities._ReadFourBytes(Stream s, String message)
+   at Ionic.Zip.SharedUtilities.ReadInt(Stream s)
+   at Ionic.Zip.ZipFile.ReadFirstFourBytes(Stream s)
+   at Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   --- End of inner exception stack trace ---
+   at Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   at Ionic.Zip.ZipFile.Read(Stream zipStream, TextWriter statusMessageWriter, Encoding encoding, EventHandler`1 readProgress)
+   at Ionic.Zip.ZipFile.Read(Stream zipStream)
+   at SetupEx.C_ZipExtractor.ExtractArchive(Byte[] archiveData, String path) in c:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\C_ZipExtractor.cs:line 26
+2013-10-20 19:57:58,005 [10] ERROR WpfApplication3.vshost.exe [(null)] - Error while loading resource
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Runtime.InteropServices.Marshal.CopyToManaged(IntPtr source, Object destination, Int32 startIndex, Int32 length)
+   at SetupEx.C_ResourceLoader.LoadResource(String resourceName, String resourceType) in c:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\C_ResourceLoader.cs:line 103
+2013-10-20 19:57:58,258 [10] ERROR WpfApplication3.vshost.exe [(null)] - Error while Extracting
+Ionic.Zip.ZipException: Cannot read that as a ZipFile ---> Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x00000000)
+   at Ionic.Zip.SharedUtilities._ReadFourBytes(Stream s, String message)
+   at Ionic.Zip.SharedUtilities.ReadInt(Stream s)
+   at Ionic.Zip.ZipFile.ReadFirstFourBytes(Stream s)
+   at Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   --- End of inner exception stack trace ---
+   at Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   at Ionic.Zip.ZipFile.Read(Stream zipStream, TextWriter statusMessageWriter, Encoding encoding, EventHandler`1 readProgress)
+   at Ionic.Zip.ZipFile.Read(Stream zipStream)
+   at SetupEx.C_ZipExtractor.ExtractArchive(Byte[] archiveData, String path) in c:\Users\ARUN\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\C_ZipExtractor.cs:line 26

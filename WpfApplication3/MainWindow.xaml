@@ -1,0 +1,39 @@
+﻿<Controls:MetroWindow x:Class="SetupEx.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Height="600" Width="400" ResizeMode="CanMinimize" 
+        
+                      >
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <StackPanel></StackPanel>
+    
+    <StackPanel x:Name="HomeScreen" Visibility="Hidden">
+        <Grid Background="White" Height="572">
+            <Image HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="80" Source="demologo.png" Stretch="Fill"/>
+            <Label Content="WhereIsExe" HorizontalAlignment="Left" Margin="95,22,0,0" VerticalAlignment="Top" Height="55" Width="289" FontSize="32" FontFamily="Segoe UI Light"/>
+            <Button Content="..." HorizontalAlignment="Left" Margin="336,140,0,0" VerticalAlignment="Top" Width="34" FontFamily="Segoe UI" FontSize="14" Height="26" Click="Button_Click_1"/>
+            <TextBox x:Name="PathField" HorizontalAlignment="Left" Height="23" Margin="24,140,0,0" TextWrapping="Wrap" Text="Path" VerticalAlignment="Top" Width="307"/>
+            <Label Content="Installation will install to :" HorizontalAlignment="Left" Margin="25,109,0,0" VerticalAlignment="Top" Width="267"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="63" Width="346" FontSize="14" FontFamily="Segoe UI Light"><Run Text="Privacy Statements:"/><LineBreak/><Run Text="I agree to the the terms and conditions. I agree to the terms and conditions"/></TextBlock>
+            <Button Content="Install" Click="SwitchToInstallation" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="190" Height="58" Margin="102,0,102,90" FontFamily="Segoe UI" FontSize="32" FontWeight="Normal"/>
+            <CheckBox x:Name="AgreeField" Content="I aggree to the terms and conditions." HorizontalAlignment="Center" Margin="24,299,154,0" VerticalAlignment="Top"/>
+
+        </Grid>
+    </StackPanel>
+
+    
+
+</Controls:MetroWindow>
